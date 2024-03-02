@@ -142,7 +142,6 @@ def regPage(): #frame2
     global confPass_entry
     global genderVar
 
-    #update this
 
     fName_entry = customtkinter.CTkEntry(frame2,font=font2,text_color='#fff',fg_color='#001a2e',bg_color='#121111',border_width=3,placeholder_text='First name',placeholder_text_color='#a3a3a3',width=300,height=50)
     fName_entry.place(x=70,y=80)
